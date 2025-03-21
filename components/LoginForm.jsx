@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 
 export default function LoginForm() {
@@ -12,6 +13,21 @@ export default function LoginForm() {
           <input type="password" name="" id="" placeholder="Password" />
 
           <button className="bg-green-600 text-white font-bold   cursor-pointer px-6 py-2">Login</button>
+
+          <div className="bg-red-500 text-white w-fit text-sm p-1 rounded ">
+            Error message
+          </div>
+
+         {/* <Link>
+
+
+         Don't have an account? <span className="underline">Register</span>
+         
+         
+         
+         </Link> */}
+
+
           
 
         </form>
