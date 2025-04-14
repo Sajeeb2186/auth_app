@@ -18,14 +18,14 @@ export default function LoginForm() {
             Error message
           </div>
 
-         {/* <Link>
+         <Link href={"/register"}>
 
 
          Don't have an account? <span className="underline">Register</span>
          
          
          
-         </Link> */}
+         </Link>
 
 
           
